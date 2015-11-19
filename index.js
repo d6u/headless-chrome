@@ -1,5 +1,8 @@
 var Chrome = require('chrome-remote-interface');
 
+// ---------------------
+// Update the host
+// ---------------------
 var opts = {host: '192.168.99.100', port: 9222};
 
 console.log('stage 0');
