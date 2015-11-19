@@ -15,7 +15,7 @@
 3. Start container
 
     ```sh
-    docker run headless-chrome
+    docker run -p 9222:9222 headless-chrome
     ```
 
 4. Update the host option in `index.js`
